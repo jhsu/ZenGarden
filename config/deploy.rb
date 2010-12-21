@@ -1,5 +1,5 @@
 set :application, "ZenGarden"
-set :repository,  "set your repository location here"
+set :repository,  "https://jhsu@github.com/jhsu/ZenGarden.git"
 
 set :scm, :git
 
