@@ -5,7 +5,7 @@ require 'bundler/capistrano'
 set :user, "http"
 set :use_sudo, false
 
-set :rvm_ruby_string, '1.9.2-p0'
+set :rvm_ruby_string, '1.9.2-p0@zengarden'
 set :rvm_type, :user
 
 set :application, "ZenGarden"
