@@ -2,11 +2,15 @@ GEM
   remote: http://rubygems.org/
   specs:
     haml (3.0.25)
+    kgio (2.0.0)
     rack (1.2.1)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
     tilt (1.1)
+    unicorn (3.1.0)
+      kgio (~> 2.0.0)
+      rack
 
 PLATFORMS
   ruby
@@ -14,3 +18,4 @@ PLATFORMS
 DEPENDENCIES
   haml (>= 3.0.25)
   sinatra (>= 1.1.b)
+  unicorn (>= 3.1.0)
