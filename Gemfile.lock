@@ -1,21 +1,29 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    daemon_controller (0.2.5)
+    fastthread (1.0.7)
+    file-tail (1.0.5)
+      spruz (>= 0.1.0)
     haml (3.0.25)
-    kgio (2.0.0)
+    passenger (3.0.2)
+      daemon_controller (>= 0.2.5)
+      fastthread (>= 1.0.1)
+      file-tail
+      rack
+      rake (>= 0.8.1)
     rack (1.2.1)
+    rake (0.8.7)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
+    spruz (0.2.2)
     tilt (1.1)
-    unicorn (3.1.0)
-      kgio (~> 2.0.0)
-      rack
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   haml (>= 3.0.25)
+  passenger (>= 3.0.2)
   sinatra (>= 1.1.b)
-  unicorn (>= 3.1.0)
